@@ -21,9 +21,14 @@ Paragraph 1: What was the assignment or task? Paragraph 2: What was your motivat
 
 Installation
 N/A
+## Image of Password Generator
+<img src= "./assets/images/passwordGeneratorSite.png" alt="Password generator website" width="600" height="450">
 
 Usage
-Use this Link:  Link to Live Website.
+## Use this Link:
+ <a href="https://lo-mido.github.io/PasswordGenerator">Link to Password Generator Webpage</a>
+Use this URL: <a href="https://github.com/lo-mido/PasswordGenerator">Link to Password Generator Repository</a>
+
 
 
 Credits:  Phil Loy- Instructor for help with understanding the assignment and task. Also Jacob Nolan for help during tutoring to better explain the javascript variables and functions. Also, myself for taking the time to review and seek outside sources and the authors of "Javascript from Beginner to Professional" by Lauerence Lars Svekis and Maaike van Putten and Rob Perecvial.
