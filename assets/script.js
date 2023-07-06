@@ -3,11 +3,14 @@ var lowerCase = "abcdefghijklmnopqrstuvwxyz".split("");
 var numbers = "0123456789".split("");
 var special = "!@#$%^&*()_+-={}[]:".split("");
 
+// Var is used to declare varibles in JavaScript ES6 syntax and is used to support old browsers. I included here because we have not learned how to use 'let' yet.
+//var upperCase, lowerCase, numbers and special because they are used in many places to set the conditions of the password generator.
+
 // Assignment code here
 function generatePassword() {
   var prePassword = [];
   var postPassword = "";
-
+// the function is used to generate a password based on the user's selections.
   var passwordLength = prompt(
     "How long would you like your password to be? (8-128 characters)"
   );
@@ -40,7 +43,7 @@ function generatePassword() {
     return postPassword;
   }
 }
-
+//if and else statements are used to set the conditions of the password generator and alert the user if they want to include uppercase letters, lowercase letters, numbers and special characters and to retry if the conditions are not met.
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
